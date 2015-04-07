@@ -1,0 +1,29 @@
+{
+  "name": "kyle",
+  "version": "1.0.0",
+  "description": "Boilerplate static site for deployment on a Github project page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattborn/kyle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattborn/kyle/issues"
+  },
+  "homepage": "https://mattborn.github.com/kyle",
+  "dependencies": {
+    "assemble": "^0.4.42",
+    "assemble-contrib-permalinks": "^0.3.6",
+    "github-markdown-css": "^2.0.7",
+    "grunt": "^0.4.5",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-gh-pages": "^0.10.0"
+  }
+}
